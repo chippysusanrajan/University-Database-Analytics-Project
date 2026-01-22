@@ -30,6 +30,7 @@ Domain Entities:
 * Query Optimisation
 
 🔍 Key Features Implemented
+
 📊 SQL Views (Q1–Q8) - DONE Full Implemention
    * Identified Level-7 subjects offered by Information Schools
    * Filtered COMP courses based on class structure
@@ -39,6 +40,7 @@ Domain Entities:
    * Analysed room utilisation frequency
    * Detected students completing multiple programs within time constraints
    * Ranked staff by distinction rates and organisational roles
+
 🧮 PL/pgSQL Functions (Q9–Q10) - Partial Implementation
 🔹 Student Ranking Function
   * Ranks a student within a course based on marks
@@ -56,7 +58,7 @@ Domain Entities:
 * Loads and runs in a single SQL pass
 
 🧪 Testing
-* Verified using provided check.sql auto-test framework
+* Verified using the provided check.sql auto-test framework
 * Tested across multiple hidden datasets
 * Ensured correct handling of:
      * Null values
@@ -73,9 +75,9 @@ Domain Entities:
 
 📎 Notes
 This project simulates real-world challenges found in:
-     * University administration systems
-     * Enterprise databases
-     * Data engineering & analytics pipelines
+   * University administration systems
+   * Enterprise databases
+   * Data engineering & analytics pipelines
 
 👤 Author
 Chippy Susan Rajan
