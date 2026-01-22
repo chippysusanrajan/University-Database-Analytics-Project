@@ -26,7 +26,7 @@ Find COMP courses that offer only Lecture and Laboratory class types.
   * Filter subjects with codes starting with COMP
   * Join courses, classes, and class types
   * Group by course and count distinct class types
-  * Retain courses with exactly two class types: Lecture and Laboratory  
+  * Retain courses with exactly two class types: Lecture and Laboratory    
 **Code**:      
 ```sql
 CREATE VIEW Q2(course_id)
@@ -57,12 +57,14 @@ Retrieve UNSW IDs of students who:
   * Enrolled in at least five courses
   * Between 2008 and 2012
   * Courses had at least two professors
-  * UNSW ID starts with 320   
+  * UNSW ID starts with 320
+    
 **Approach**:
   * Filter semesters by year range
   * Identify staff with title containing Prof
   * Ensure courses have two or more professors
-  * Count qualifying enrolments per student  
+  * Count qualifying enrolments per student
+    
 **Code**:      
 ```sql
 CREATE VIEW Q3(unsw_id)
