@@ -5,7 +5,8 @@ Retrieve all Level-7 subjects offered by organisations classified as Schools who
 **Approach**:
   * Filter subject codes matching level-7 pattern (XXXX7***)
   * Join subjects with organisational units and types
-  * Ensure organisation type contains “School”  
+  * Ensure organisation type contains “School”
+    
 **Code**:      
 ```sql
 CREATE OR REPLACE VIEW Q1(subject_code) AS
@@ -26,7 +27,8 @@ Find COMP courses that offer only Lecture and Laboratory class types.
   * Filter subjects with codes starting with COMP
   * Join courses, classes, and class types
   * Group by course and count distinct class types
-  * Retain courses with exactly two class types: Lecture and Laboratory    
+  * Retain courses with exactly two class types: Lecture and Laboratory
+       
 **Code**:      
 ```sql
 CREATE VIEW Q2(course_id)
